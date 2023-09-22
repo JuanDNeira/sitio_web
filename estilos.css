@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+    font-family: calibri;
+}
+
+header{
+    background: #01a9db;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px #A4A4A4;
+    border-bottom-style: solid;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+}
+
+#encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border: 0px solid #000;
+}
+
+#logo{
+    width: 30%;
+    height: auto; overflow: hidden;
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+#menu{
+    width: 60%;
+    height: 30px;
+    float: right;
+    border: 0px solid red;
+    margin-top: 55px;
+
+}
+
+
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu ul li .enlace{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#menu ul li .enlace:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active-menu{
+    background: #319b59;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+
+}
+
+#principal{
+    width: 80%;
+    height: auto; overflow: hidden;
+    border: 1px solid;
+    margin: 10px au;
+}
+
+#publicaciones{
+    height: auto; overflow: hidden;
+    border: 1px solid;
+    margin-top: 10px;
+    float: left;
+}
+
+.post{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-color: #0489B1;
+    border-left-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+#publicaciones a .titulo-post{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: 'calibri light';
+}
+
+#publicaciones a .titulo-post:hover{
+    text-decoration: underline;
+}
+
+#publicaciones .img-post{
+    width: 160px;
+    height: 120px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#publicaciones .datos-publicaciones{
+    font-family: 'calibri light';
+    color: #0489B1;
+}
+
+#sibear{
+    float: right;
+    width: 28%;
+    border: 1px solid;
+    height: auto;overflow: hidden;
+}
+
+#buscar, #categorias{
+    border-radius: 10px;
+    width: 100px;
+    border: 1px solid #ccc;
+    height: auto; overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#buscar input[type="text"]{
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #ccc inset;
+    padding: 10px 4px;
+    border-radius: 10px;
+    width: 87%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+#buscar .boton{
+    border: 0px;
+    color: #fff;
+    background: #0b4c5f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.encabezado-sidebar{
+    width: 100%;
+    height: 35%;
+    background: #0489B1;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'calibri light';
+}
